@@ -1,11 +1,21 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
   }
 
 body {
     font-family: 'Roboto', Lora, sans-serif;
     font-size: 18px;
-    background: 26005F;
+    background: #26005F;
+}
+
+#title {
+    background: #008F6C;
+    color: #E5E5E5;
+}
+#form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
