@@ -7,6 +7,7 @@ body {
     font-family: 'Roboto', Lora, sans-serif;
     font-size: 18px;
     background: #26005F;
+    text-align: center;
 }
 
 #title {
@@ -14,8 +15,30 @@ body {
     color: #E5E5E5;
 }
 #form {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    width: 28%;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 20px;
+    background: #F1C0FF;
+    border-radius: 45px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);    
+}
+
+.instagram {
+    height: 30px;
+    width: 30px;
+}
+
+.facebook {
+    height: 30px;
+    width: 30px;
+}
+main {
+    padding: 5%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); 
 }

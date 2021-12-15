@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Radio Habitar</title>
-    <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     
@@ -20,18 +20,22 @@
       <form action="" id="form">
       <h2>Agrega tu tarjeta de crédito</h2><br>
       <label for="numeroTarjeta"><strong>Número de tarjeta</strong></label>
-      <input type="text" id="cardNumber" name="numeroTarjeta" placeholder="xxxx-xxxx-xxxx-xxxx" value="" required>
+      <input type="text" id="cardNumber" class="inputs" name="numeroTarjeta" placeholder="xxxx-xxxx-xxxx-xxxx" value="" required>
       <label for="nombre"><strong>Nombre</strong></label>
-      <input type="text" id="name" name="nombre" placeholder="Nombre en la tarjeta" value="" required> 
+      <input type="text" id="name" class="inputs" name="nombre" placeholder="Nombre en la tarjeta" value="" required> 
       <label for="fechaExpiración"><strong>Fecha de vencimiento</strong></label>
-      <input type="text" id="expira" name="fechaExpiración" placeholder="mm/aaaa" value="" required>
+      <input type="text" id="expira" class="inputs" name="fechaExpiración" placeholder="mm/aaaa" value="" required>
       <label for="cVV"><strong>CVV</strong></label>
-      <input type="text" id="cvv" name="cVV" placeholder="xxx" value="" required>
-      <input type="submit" value="Agrega tu tarjeta" class="btn" >
+      <input type="text" id="cvv" class="inputs" name="cVV" placeholder="xxx" value="" required>
+      <input type="submit" value="Agrega tu tarjeta" class="btn" id="agregaTarjeta" >
       </form>
     </main>
     <footer>
       <p>Habitar 2021</p>
+      <div id="logos">
+        <img src="facebook.png" alt="logo-facebook" class="facebook">
+        <img src="instagram.png" alt="logo-instagram" class="instagram">
+      </div>
     </footer>
     <script src="index.js" type="module"></script>
   </body>
