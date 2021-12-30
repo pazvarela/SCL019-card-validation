@@ -10,7 +10,7 @@ const validator = {
   // guardar tambien en algun lugar los numeros de las posiciones impares
   // sumar todos los numero
   // buscar % de 10
-  isValid: function(cardNumber) {
+  "isValid": function(cardNumber) {
   /*console.log("hola")*/
   let arrayValidation = cardNumber.split('').reverse().map(Number);
   /*console.log(arrayValidation);*/
@@ -43,7 +43,27 @@ const validator = {
   } else {
     return false
   }
+},
+
+"maskify": function(hideNum) {
+  let num = hideNum.length;
+  /* si el num es >= 4 se esconden los últimos 4 dígitos y se enmascaran con hideNum*/
+  if (num <= 4) {
+    return hideNum
+     /*De lo contrario, variable cardNumb será igual al arreglo de hideNum */
+  } else {
+    let cardNum = hideNum.split('')
+    for (let i = 0; i < hideNum.length - 4; i++) {
+      cardNum[i] = "#"
+    }
+    let numFinal = cardNum.join('')
+    return numFinal
+  }
+ 
+  /*console.log(hideNum)*/
 }
+
 }
+
 
 export default validator; 
