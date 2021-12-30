@@ -1,16 +1,29 @@
 import validator from './validator.js';
-
-console.log(validator);
 /* variable para traer los datos del input */
-let btnTarjeta = document.querySelector('#agregaTarjeta');
+const btnTarjeta = document.getElementById("agregaTarjeta");
 
-  btnTarjeta.addEventListener('click', () => {
+  btnTarjeta.addEventListener("click", () => {
   btnTarjeta.style.backgroundColor = '#4cae4c'
-  let inputCardNumber = document.querySelector('#cardNumber').value; /* Va a buscar el input con el valor */
+  let inputCardNumber = document.getElementById("cardNumber").value; 
   /*console.log(inputCardNumber.value)*/
-  const result = validator.isValid(inputCardNumber)
-  console.log(result)
+  const result = validator.isValid(inputCardNumber);
+  /*console.log(result)*/
 
-  })
+  const numberhide = validator.maskify(inputCardNumber);
   
+  if (result == true) {
+    const mask = document.getElementById("cardNumber").value = numberhide
+
+    document.getElementById("numFinal").innerHTML =
+    ("Número de tarjeta válido " + mask)
+
+  } else {
+      const mask = document.getElementById("cardNumber").value = numberhide
+
+      document.getElementById("numFinal").innerHTML =
+      ("Número de la tarjeta inválido " + mask)
+  }
+
+})
+
 
