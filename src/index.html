@@ -26,9 +26,10 @@
       <label for="fechaExpiración"><strong>Fecha de vencimiento</strong></label>
       <input type="text" id="expira" class="inputs" name="fechaExpiración" placeholder="mm/aaaa" value="" required>
       <label for="cVV"><strong>CVV</strong></label>
-      <input type="text" id="cvv" class="inputs" name="cVV" placeholder="xxx" value="" required>
-      <input type="submit" value="Agrega tu tarjeta" class="btn" id="agregaTarjeta" >
+      <input type="text" id="cvv" class="inputs" name="cVV" placeholder="xxx" maxlength="3" value="" required>
+      <input type="button" value="validar" class="btn" id="agregaTarjeta" >
       </form>
+      <p id="numFinal" ></p>
     </main>
     <footer>
       <p>Habitar 2021</p>
