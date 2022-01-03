@@ -42,6 +42,5 @@ Para visualizar el proyecto pincha [aquí](https://pazvarela.github.io/SCL019-ca
 
 #### Prototipos: 
 
-
-![Screenshot](prototipo-figma.png)
+Para ver las imágenes de los prototipos pincha [aquí](https://docs.google.com/document/d/1UAn5uvW88moy5iM8LwLTTkAfZWkjubhagXNaBcLSRcI/edit?usp=sharing)
 
