@@ -42,3 +42,10 @@ main {
     padding: 5%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); 
 }
+
+.mensajeFinal {
+    display: flex;
+    justify-content: center;
+    background: #f1c0ff ;
+    border-radius: 45px;
+}
