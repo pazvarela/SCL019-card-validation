@@ -43,7 +43,6 @@ Para visualizar el proyecto pincha [aquí](https://pazvarela.github.io/SCL019-ca
 Prototipos: 
 
 
-=======
 
 ## Nombre del proyecto: Radio Habitar
 
@@ -62,4 +61,3 @@ Para visualizar el proyecto pincha [aquí](https://pazvarela.github.io/SCL019-ca
 
 Para ver las imágenes de los prototipos pincha [aquí](https://docs.google.com/document/d/1UAn5uvW88moy5iM8LwLTTkAfZWkjubhagXNaBcLSRcI/edit?usp=sharing)
 
->>>>>>> 12816e7335ed0761ac5bd988d4251657d0bcd595
