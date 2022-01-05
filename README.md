@@ -39,7 +39,7 @@ El objetivo es validar su tarjeta en la página web de manera segura.
 
 El producto soluciona la validación de la tarjeta, de forma cifrada y por lo tanto con la seguridad que necesitan para sentir confianza a la hora de entrar al sitio.
 
-Para visualizar el proyecto pincha [aquí](https://pazvarela.github.io/SCL019-card-validation/src/index.html)
+Para visualizar el proyecto pincha [aquí](https://scl-019-card-validation-bio8u8z8k-pazvarela.vercel.app/)
 
 #### Prototipos: 
 
