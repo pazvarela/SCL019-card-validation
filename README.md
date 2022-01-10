@@ -43,5 +43,4 @@ Para visualizar el proyecto pincha [aquí](https://scl-019-card-validation-bio8u
 
 #### Prototipos: 
 
-Para ver las imágenes de los prototipos pincha [aquí](https://docs.google.com/document/d/1UAn5uvW88moy5iM8LwLTTkAfZWkjubhagXNaBcLSRcI/edit?usp=sharing)
-
+![alt text](https://github.com/[pazvarela]/[SCL019-card-validation]/blob/[main]/prototipo-papel?raw=true)
