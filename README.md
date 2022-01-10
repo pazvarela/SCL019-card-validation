@@ -43,4 +43,12 @@ Para visualizar el proyecto pincha [aquí](https://scl-019-card-validation-bio8u
 
 #### Prototipos: 
 
-![alt text](https://github.com/[pazvarela]/[SCL019-card-validation]/blob/[main]/prototipo-papel?raw=true)
+##### Prototipo Papel
+
+![Prototipo-papel](https://user-images.githubusercontent.com/89282860/148779746-89d8f7e6-a156-48a3-b7a4-78117ff9b315.jpeg)
+
+##### Prototipo Figma
+
+![prototipo-figma](https://user-images.githubusercontent.com/89282860/148779923-cd2279c8-469f-48a8-b28f-6abd6285e737.png)
+
+
